@@ -58,12 +58,11 @@ public class CalculateTest {
 
         //Assert
 
-        if (expected != actual) {
-            Assert.fail();
+        Assert.assertEquals(expected, actual);
 
 
         }
-    }
+
 
     @Test
     public void testDiv() {
